@@ -106,12 +106,9 @@ function getEvens(numbers) {
       evenNumbers.push(numbers[i]);
     }
   }
-  sum = 0;
-  for(let i=0; i < evenNumbers.length; i++){
-    sum += evenNumbers[i]
-  }
-  return sum;
+  return evenNumbers;
 }
+
 
 /**
  * @param {number[]} numbers an array of integers
@@ -125,9 +122,5 @@ function getOdds(numbers) {
       oddNumbers.push(numbers[i]);
     }
   }
-  sum = 0;
-  for(let i=0; i < oddNumbers.length; i++){
-    sum += oddNumbers[i]
-  }
-  return sum;
+  return oddNumbers;
 }
